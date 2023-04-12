@@ -13,9 +13,6 @@ section{
     background-attachment: fixed;
 }
 
-.logo {
-    
-}
 section:nth-of-type(1){
     background-image: url(images/img1.jpg);
     height: 600px;
@@ -34,4 +31,25 @@ section:nth-of-type(5){
 section:nth-of-type(7){
     background-image: url(images/img4.jpg);
     height: 600px;
+}
+
+
+.primeira-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-um {
+    width: 50%;
+
+}
+
+.info-um {
+    width: 50%;
+}
+
+.rodape {
+    background-color: #ab8262;
 }
