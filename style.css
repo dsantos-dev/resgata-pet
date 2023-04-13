@@ -41,13 +41,84 @@ section:nth-of-type(7){
     justify-content: center;
 }
 
+
+
 .logo-um {
     width: 50%;
+    padding-top: 40px;
+    padding-left: 90px;
 
 }
 
 .info-um {
     width: 50%;
+    height: 100%;
+    background-color: #fef9ea;
+}
+
+p {
+    margin: 35px;
+}
+
+.segunda-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-dois {
+    width: 50%;
+    height: 100%;
+    padding-top: 40px;
+    padding-left: 90px;
+    background-color: #fef9ea;
+
+}
+
+.info-dois {
+    width: 50%;
+    height: 100%;
+}
+
+.voluntario{ 
+    font-size: 45px;
+    box-shadow: 3px 2px 2px -1px #313131;
+	background-color:transparent;
+	border-radius:42px;
+	border:1px solid #ab8262;
+	display:inline-block;
+	cursor:pointer;
+	color:#ab8262;
+	font-family:Arial;
+	padding:32px 76px;
+    margin-top: 50px;
+    margin-right: 15px;
+}
+
+.voluntario:hover {
+	background-color:#ab8262;
+    color: #fef9ea;
+}
+
+.adotar {
+    font-size: 45px;
+    box-shadow: 3px 2px 2px -1px #313131;
+	background-color:transparent;
+	border-radius:42px;
+	border:1px solid #ab8262;
+	display:inline-block;
+	cursor:pointer;
+	color:#ab8262;
+	font-family:Arial;
+	padding:32px 76px;
+    margin-top: 90px;
+    margin-left: 200px;
+}
+
+.adotar:hover {
+    background-color: #ab8262;
+    color: #FFF;
 }
 
 .rodape {
